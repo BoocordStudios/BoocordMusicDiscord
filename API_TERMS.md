@@ -1,8 +1,7 @@
-# Boocord Music (API) - Terms of Service
+# Boocord Music API and Content Terms
 
-**Commercial use is only permitted in video and streaming contexts**  
-(e.g., YouTube, Twitch, or similar platforms).  
-All other commercial uses are prohibited.
+The [MIT License](./LICENSE) applies to this repository's source code only. It does not grant rights to music, artwork, lyrics, metadata, streams, or other content delivered by the Boocord Music API.
 
-For details, see:  
-https://music.boocord.com/terms/
+Commercial use of API-delivered content is permitted only in video and streaming contexts, such as YouTube, Twitch, or similar platforms. All other commercial use is prohibited.
+
+Use of the API and its content is subject to the current service terms at <https://music.boocord.com/terms/>. If this summary differs from the service terms, the service terms control.
