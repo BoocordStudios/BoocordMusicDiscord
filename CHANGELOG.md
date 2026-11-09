@@ -4,6 +4,8 @@ All notable changes to this project are documented here. The project follows [Se
 
 ## [Unreleased]
 
+## [5.0.1] - 2026-11-09
+
 ### Changed
 
 - Increased the playlist request limit to 10,000 songs for playlist browsing, search, `/play` matching, and shuffle while keeping favorites restricted to 1,000 distinct song IDs per command
@@ -33,5 +35,6 @@ All notable changes to this project are documented here. The project follows [Se
 - Updated direct dependencies and constrained vulnerable transitive dependencies to patched versions
 - Added private vulnerability-reporting guidance and automated dependency updates
 
-[Unreleased]: https://github.com/BoocordStudios/BoocordMusicDiscord/compare/v5.0.0...HEAD
+[Unreleased]: https://github.com/BoocordStudios/BoocordMusicDiscord/compare/v5.0.1...HEAD
+[5.0.1]: https://github.com/BoocordStudios/BoocordMusicDiscord/releases/tag/v5.0.1
 [5.0.0]: https://github.com/BoocordStudios/BoocordMusicDiscord/releases/tag/v5.0.0

@@ -5,7 +5,7 @@
 
   <groupId>com.boocord</groupId>
   <artifactId>boocord-music-discord</artifactId>
-  <version>5.0.0</version>
+  <version>5.0.1</version>
   <packaging>jar</packaging>
 
   <name>Boocord Music Discord</name>
@@ -44,7 +44,7 @@
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-    <project.build.outputTimestamp>2026-09-01T00:00:00Z</project.build.outputTimestamp>
+    <project.build.outputTimestamp>2026-11-09T00:00:00Z</project.build.outputTimestamp>
     <maven.compiler.release>17</maven.compiler.release>
     <jda.version>6.5.0</jda.version>
     <libdave.version>0.1.2</libdave.version>
