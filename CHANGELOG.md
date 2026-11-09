@@ -4,6 +4,10 @@ All notable changes to this project are documented here. The project follows [Se
 
 ## [Unreleased]
 
+### Changed
+
+- Increased the playlist request limit to 10,000 songs for playlist browsing, search, `/play` matching, and shuffle while keeping favorites restricted to 1,000 distinct song IDs per command
+
 ## [5.0.0] - 2026-09-01
 
 ### Added

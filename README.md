@@ -113,6 +113,8 @@ Common values are:
 
 ## Commands
 
+Playlist loading, search results, `/play` matching, and shuffle use up to 10,000 songs per playlist request, subject to the API's own limits. Favorites load at most 1,000 distinct song IDs per command. Playback-session persistence retains only the first 100 upcoming songs for restoration after a restart.
+
 | Command | Purpose |
 | --- | --- |
 | `/play` | Find and enqueue a song |

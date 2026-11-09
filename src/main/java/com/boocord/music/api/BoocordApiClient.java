@@ -120,7 +120,7 @@ public final class BoocordApiClient {
     List<Song> songs = new ArrayList<>();
     int processedIds = 0;
     for (Integer id : new LinkedHashSet<>(ids)) {
-      if (processedIds++ >= AppConstants.MAX_API_PLAYLIST_LIMIT) {
+      if (processedIds++ >= AppConstants.MAX_SONG_IDS_PER_BATCH) {
         break;
       }
       if (id == null) {

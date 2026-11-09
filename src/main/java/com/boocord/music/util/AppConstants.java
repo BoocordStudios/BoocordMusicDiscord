@@ -4,7 +4,8 @@ public final class AppConstants {
   public static final int PRIMARY_COLOR = 0x9B59FF;
   public static final String API_BASE_URL = "https://music.boocord.com";
   public static final String API_REQUEST_BASE_URL = API_BASE_URL + "/api/request";
-  public static final int MAX_API_PLAYLIST_LIMIT = 1_000;
+  public static final int MAX_API_PLAYLIST_LIMIT = 10_000;
+  public static final int MAX_SONG_IDS_PER_BATCH = 1_000;
   public static final int DEFAULT_VOLUME_PERCENT = 100;
   public static final int DEFAULT_IDLE_TIMEOUT_MS = 5 * 60 * 1_000;
   public static final long DEFAULT_PLAYLIST_CACHE_TTL_MS = 60_000L;

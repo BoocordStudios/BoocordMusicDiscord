@@ -242,7 +242,7 @@ public final class InteractionListener extends ListenerAdapter {
   }
 
   private void handlePlaylist(SlashCommandInteractionEvent event) {
-    var playlist = apiClient.fetchPlaylist(1_000, "", null, null, null, null, false);
+    var playlist = apiClient.fetchPlaylist(AppConstants.MAX_API_PLAYLIST_LIMIT, "", null, null, null, null, false);
     paginationService.sendPaginatedReply(
         event.getHook(),
         event.getUser().getId(),
@@ -259,7 +259,7 @@ public final class InteractionListener extends ListenerAdapter {
 
   private void handleSearch(SlashCommandInteractionEvent event) {
     String search = event.getOption("search").getAsString();
-    var playlist = apiClient.fetchPlaylist(1_000, search, null, null, null, null, false);
+    var playlist = apiClient.fetchPlaylist(AppConstants.MAX_API_PLAYLIST_LIMIT, search, null, null, null, null, false);
     paginationService.sendPaginatedReply(
         event.getHook(),
         event.getUser().getId(),
